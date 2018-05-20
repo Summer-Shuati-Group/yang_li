@@ -3,10 +3,8 @@ public:
     string longestCommonPrefix(vector<string>& strs) {
         int pos = 0; // tracing corresponding chars
 	string result;
-	if (strs.empty())
-		return result;
-	if (strs.size() == 1)
-		return strs[0];
+	if (strs.empty())) return result;
+	if (strs.size() == 1) return strs[0];
 	while (true)
 	{
 		int j = 1;

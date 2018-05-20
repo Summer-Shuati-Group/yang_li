@@ -1,6 +1,12 @@
 class Solution {
 public:
-        
+	/* 
+	Space: O(m + n)
+	Time: O(m + n) > O (log(m + n)), due to `merge` function
+	still needs improvement
+	*/
+
+
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
         double result;
         vector<int> v(nums1.size() + nums2.size());

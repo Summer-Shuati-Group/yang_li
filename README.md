@@ -13,3 +13,18 @@
 344. Reverse Strings:
 * traverse and swap
 ```
+
+## Day 2
+
+```
+292. Nim Game:
+*Brainteaser: observe the property that one that reaches the multiple of 4 wins 
+4. Median of Two Sorted Arrays:
+* [NEED TO IMPROVE] merge takes (m + n), unable to reach O(log(n)), but still passess judge...
+136. Single Number:
+* Use XOR(^) bitwise operation [NEED TO LEARN]
+175. Combine Two Tables:
+* [DID NOT LEARN SQL, SKIP]
+14. Longest Common Prefix:
+* check character to the same position until disagreement appears
+```
