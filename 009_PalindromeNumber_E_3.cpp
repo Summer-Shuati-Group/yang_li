@@ -1,5 +1,9 @@
 class Solution {
 public:
+	/*
+	convert the original integer to a string
+	and compare if it's a palindrome string
+	*/
     bool isPalindrome(int x) {
         if (x < 0) return false;
         string str = to_string(x);
