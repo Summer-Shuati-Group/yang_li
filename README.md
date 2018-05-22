@@ -2,7 +2,7 @@
 
 ## Day 1
 
-```cpp
+```md
 1. Two Sum:
 * Hash Map: O(n) Space, O(n) Time
 * Sort + Two Pointers: O(n) Space, O(nlog(n)) Time
@@ -16,7 +16,7 @@
 
 ## Day 2
 
-```cpp
+```md
 292. Nim Game:
 * Brainteaser: observe the property that one that reaches the multiple of 4 wins
 4. Median of Two Sorted Arrays:
@@ -31,7 +31,7 @@
 
 ## Day 3
 
-```cpp
+```md
 11. Container with Most Water:
 * In essence, we would find the optimal area from the start and the end.
   If we can find a better answer than just taking the front and the back,
@@ -51,13 +51,18 @@
 
 ## Day 4
 
-```cpp
+```md
 3. Longest Substring Without Repeating Characters
-
+* Hash table: 
+  Use a hash table to find if the new character is visited or unique
+  Two pointers:
+  right pointer: shift rightward if we discover unique characters and insert it into container
+  left pointer: shift rightward if we discover repeating characters and remove it from container
 12. Integer to Roman
-
+  Convert digit from the largest to the smallest, and note the exceptions of 4 and 9
 771. Jewels and Stones
-
+  create a reference container and check if the any char is identical to any char in reference container.
+  [container is used with hash table. Find: O(1)]
 458. Poor Pigs
-
+  
 ```
