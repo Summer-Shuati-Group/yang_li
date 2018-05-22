@@ -2,7 +2,7 @@
 
 ## Day 1
 
-```
+```cpp
 1. Two Sum:
 * Hash Map: O(n) Space, O(n) Time
 * Sort + Two Pointers: O(n) Space, O(nlog(n)) Time
@@ -16,9 +16,9 @@
 
 ## Day 2
 
-```
+```cpp
 292. Nim Game:
-* Brainteaser: observe the property that one that reaches the multiple of 4 wins 
+* Brainteaser: observe the property that one that reaches the multiple of 4 wins
 4. Median of Two Sorted Arrays:
 * [NEED TO IMPROVE] merge takes (m + n), unable to reach O(log(n)), but still passess judge...
 136. Single Number:
@@ -31,7 +31,7 @@
 
 ## Day 3
 
-```
+```cpp
 11. Container with Most Water:
 * In essence, we would find the optimal area from the start and the end.
   If we can find a better answer than just taking the front and the back,
@@ -47,4 +47,17 @@
 9. Palindrome Number:
 * [BETTER SOLUTION]: check if the first half and reversed second half are equal.
   (for odd cases, the middle value would always equal to itself)
+```
+
+## Day 4
+
+```cpp
+3. Longest Substring Without Repeating Characters
+
+12. Integer to Roman
+
+771. Jewels and Stones
+
+458. Poor Pigs
+
 ```
