@@ -64,5 +64,26 @@
   create a reference container and check if the any char is identical to any char in reference container.
   [container is used with hash table. Find: O(1)]
 458. Poor Pigs
-  
+```
+
+## Day 5
+
+```md
+7. Reverse Integer:
+* Some notes:
+  1. watch for '-' ('0' would disappear when added to result) and multiply -1
+  2. declare a long lnog variable would be much helpful in identifying overflow
+20. Valid Parentheses:
+* Classical Question about Stack:
+  1. Scan character by character of the expression string
+  2. Each time you hit an open-paren: '(', '[', '{' push it on the stack
+  3. When you encounter a ')', ']', '}' the top character on the stack should be the matching opening
+  paren type, otherwise return false!
+371. Sum of Two Integers:
+* Bit Manipulation:
+  1. XOR operation to compute the sum,
+  2. BITWISE SHIFT and AND operation to compute the carry
+  3. recursively doing so
+21. Merge Two Sorted Lists:
+* Classical Merge Question, much easier if a dummyhead is added before
 ```
