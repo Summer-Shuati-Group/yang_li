@@ -87,3 +87,27 @@
 21. Merge Two Sorted Lists:
 * Classical Merge Question, much easier if a dummyhead is added before
 ```
+
+## Day 6
+
+```md
+237. Delete Node in a Linked List:
+* Two Methods (Both run in O(1)):
+  1. Create a dummy head after the node, swap them, and delete node
+  2. swap values of node and node->next, delete node->next
+595. Big Countries
+* 
+195. Tenth Line:
+* "sed -n" is used to suppress output
+  "'xp' locates xth line
+561. Array Partition I:
+* Sort the array first and look for the smaller value of the pairs
+535. Encode and Decode TinyURL:
+* 
+66. Plus one:
+* Method:
+  1. Add from the end of the digits 
+  2. if the digit is smaller than 9, just add one, done
+  3. if the digit is equal to 9, set to 0, and add one to the position upfront
+  4. if there is no available digit upfront, add a position of 1, done
+```
