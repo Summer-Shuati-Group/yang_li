@@ -2,7 +2,7 @@
 
 ## Day 1
 
-```md
+```
 1. Two Sum:
 * Hash Map: O(n) Space, O(n) Time
 * Sort + Two Pointers: O(n) Space, O(nlog(n)) Time
@@ -16,7 +16,7 @@
 
 ## Day 2
 
-```md
+```
 292. Nim Game:
 * Brainteaser: observe the property that one that reaches the multiple of 4 wins
 4. Median of Two Sorted Arrays:
@@ -31,7 +31,7 @@
 
 ## Day 3
 
-```md
+```
 11. Container with Most Water:
 * In essence, we would find the optimal area from the start and the end.
   If we can find a better answer than just taking the front and the back,
@@ -51,7 +51,7 @@
 
 ## Day 4
 
-```md
+```
 3. Longest Substring Without Repeating Characters
 * Hash table: 
   Use a hash table to find if the new character is visited or unique
@@ -68,7 +68,7 @@
 
 ## Day 5
 
-```md
+```
 7. Reverse Integer:
 * Some notes:
   1. watch for '-' ('0' would disappear when added to result) and multiply -1
@@ -90,7 +90,7 @@
 
 ## Day 6
 
-```md
+```
 237. Delete Node in a Linked List:
 * Two Methods (Both run in O(1)):
   1. Create a dummy head after the node, swap them, and delete node
