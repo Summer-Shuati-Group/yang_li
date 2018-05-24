@@ -12,5 +12,18 @@ public:
             sum += nums[i];
         }
         return sum;
+
+		int arr[200001] = {0};
+        bool flag = 1;
+        unsigned int sum = 0;
+        for(unsigned int i = 0;i < nums.size();i++) arr[nums[i]+10000]++;
+        for(unsigned int i = 0;i < 200001;i++){
+            if(arr[i]){
+                if(flag) sum += i-10000;
+                flag = !flag;
+                if(--arr[i]) i--;
+            }
+        }
+        return sum;
     }
 };
