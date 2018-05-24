@@ -10,10 +10,12 @@ class Solution {
 public:
     void deleteNode(ListNode* node) {f
 		/*
-		Space: one extra space to store the node->next for deletion
-		Time: O(1)
+		Two Methods: 
+		1. 
+			if node->next != NULL, swap node and node->next and delete node->next
+			else just delete node->next
 		*/
-        if (node->next == NULL) {
+		if (node->next == NULL) {
             delete node; 
         }
         else {
@@ -23,6 +25,16 @@ public:
             delete temp;
         }
 
+		/*
+		2. 
+			create a dummy pointer after the node, swap node and dummy and delete the node
 		
+		Both of these methods could run in constant time
+		*/
+        ListNode dummy(0);
+        dummy.next = node->next;
+        swap (*node, *(node->next));
+        delete dummy.next;
+
     }
 };

@@ -8,7 +8,7 @@ public:
             return getSum(a^b, (a&b) << 1);	
 			/*
 			sum: a ^ b
-			carry: (a & b) << 1
+			carry:(a & b) << 1
 			*/
         }
     }
