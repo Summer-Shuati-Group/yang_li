@@ -111,3 +111,19 @@
   3. if the digit is equal to 9, set to 0, and add one to the position upfront
   4. if there is no available digit upfront, add a position of 1, done
 ```
+
+## Day 7
+
+```
+5. Longest Palindromic Substring
+104. Maxmimum Depth of Binary Tree
+* use dfs to find the maxmimum depth of root->left and root->right
+53. Maximum Subarray
+* Three Methods:
+  1. Brute Force: O(n^2), scan through the array twice
+  2. Divide-and-conquer: O(nlog(n)),
+     divide array into indiviudal sections and calculate the maximum sum of each section
+  3. Dynamic Programming (Kadane's algorithm): O(n), 
+     note the pattern of find maximum sum: A_{i+1} = max(A_{i} + B_{i+1}, B_{i+1})
+122. Best Time to Buy and Sell Stock II:
+```
