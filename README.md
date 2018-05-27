@@ -127,3 +127,27 @@
      note the pattern of find maximum sum: A_{i+1} = max(A_{i} + B_{i+1}, B_{i+1})
 122. Best Time to Buy and Sell Stock II:
 ```
+
+## Day 8
+
+```
+206. Reverse Linked List
+* Iterative and Recursive
+146. Cache LRU
+169. Majority Element
+* Six Methods:
+  1. Hash Table
+  2. Sorting
+  3. Randomization
+  4. Divide-and-Conquer
+  5. Moore Voting Algorithm
+  6. Bit Manipulation
+155. Min Stack
+* Use two stacks to access the smallest element in linear time
+```
+
+## Day 9
+
+```
+
+```
