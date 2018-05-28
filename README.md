@@ -216,3 +216,22 @@ them, and break into pairs of 4 and merge them, and so on
   profit (profit - lowest price so far)
 42. Trapping Rain Water
 ```
+
+## Day 11
+
+```
+70. Climbing Stairs
+[Dynamic Programming]
+
+193. Valid Phone Numbers
+[Regex] grep, sed, awk bash commands
+
+412. Fizz Buzz
+Easy Simulation
+
+256. Add Digits
+* Two Methods:
+  1. [Recursion / loop] sum up digits repeatedly until there is only one digit
+  2. [Digital Root Formulae] dr(num) = 1 + (num - 1) % 9
+
+```
