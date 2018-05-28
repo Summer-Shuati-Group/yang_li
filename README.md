@@ -143,11 +143,73 @@
   5. Moore Voting Algorithm
   6. Bit Manipulation
 155. Min Stack
-* Use two stacks to access the smallest element in linear time
+[Design Trick] Use two stacks to access the smallest element in 
+linear time
 ```
 
 ## Day 9
 
 ```
+23. Merge k Sorted List
+* Several Methods:
+  1. [Brute Force] use merge two sorted lists function and iterate
+  through all of the k sorted lists
 
+  2. [Divide and Conquer] break k-length sorted lists into pairs of
+  2 and merge them, and break into pairs of 4 and merge them, and
+  so on
+
+  ......[BETTER METHODS. TO BE CONTINUED]
+38. Count and Say
+[Dynamic Programming] Find the recurrence relations that v[i+1] is
+equal to the counts of the number plus the number. 
+
+148. Sort List
+[Divide and Conquer] break n-length list into pairs of 2 and merge 
+them, and break into pairs of 4 and merge them, and so on
+
+191. Number of 1 Bits
+* Two Methods:
+  1. [XOR] use XOR to check if the last bit is 1, and use bitwise 
+  right shift to cut off the last 1 bit.
+
+  2. [AND] use n & (n-1) to identify the last 1 bit in n, and then
+  set to 0. Faster than the first one.
+```
+
+## Day 10 
+
+```
+141. Linked List Cycle
+* Three Methods:
+  1. [Dummy Pointer]add a dummy pointer in between every two elements, if the dummy pointer was found again, then it means 
+  it has a cycle.
+
+  2. [Hashtable ]build a hashtable to store the elements while traversing all the elements, if hashtable finds the same element, then it means it has a cycle
+
+  3. [Two Pointers] 追逐问题: the left pointer takes 1 step while
+  the right pointer takes 2 step. If the linked list has a cycle,
+  left pointer would eventually be equal to the right pointer.
+
+283. Move Zeroes
+* Two Methods:
+  1. [Operation suboptimal]
+    (1). If the current element is not 0, then we need to append it 
+    just in front of last non 0 element we found.
+    (2). After we have finished processing new elements, all the
+    non-zero elements are already at beginning of array. We just 
+    need to fill remaining array with 0's.
+  2. [Operation optimal]
+    (1). all elements before slow pointer (j) are non-zeroes.
+    (2). all elements between the current (i) and slow (j) pointer
+    are zeroes.
+
+121. Best Time to Buy and Sell Stocks
+* Two Methods:
+  1. [Dynamic Programming (Brute Force)] Find the recurrence
+  relations that max(prices[i] - prices[j])
+  
+  2. [One Pass] update the lowest price and find out the max
+  profit (profit - lowest price so far)
+42. Trapping Rain Water
 ```
