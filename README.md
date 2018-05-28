@@ -182,10 +182,13 @@ them, and break into pairs of 4 and merge them, and so on
 ```
 141. Linked List Cycle
 * Three Methods:
-  1. [Dummy Pointer]add a dummy pointer in between every two elements, if the dummy pointer was found again, then it means 
+  1. [Dummy Pointer]add a dummy pointer in between every two
+  elements, if the dummy pointer was found again, then it means
   it has a cycle.
 
-  2. [Hashtable ]build a hashtable to store the elements while traversing all the elements, if hashtable finds the same element, then it means it has a cycle
+  2. [Hashtable ]build a hashtable to store the elements while
+  traversing all the elements, if hashtable finds the same element,
+  then it means it has a cycle
 
   3. [Two Pointers] 追逐问题: the left pointer takes 1 step while
   the right pointer takes 2 step. If the linked list has a cycle,
