@@ -221,7 +221,7 @@ them, and break into pairs of 4 and merge them, and so on
 
 ```
 70. Climbing Stairs
-[Dynamic Programming]
+[Dynamic Programming] fibonacci sequence
 
 193. Valid Phone Numbers
 [Regex] grep, sed, awk bash commands
