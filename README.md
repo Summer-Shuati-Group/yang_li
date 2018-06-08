@@ -235,3 +235,44 @@ Easy Simulation
   2. [Digital Root Formulae] dr(num) = 1 + (num - 1) % 9
 
 ```
+
+## Day 20
+
+```
+234. Palindrome Linked List
+* The Method:
+  1. reverse the first part of the linked list
+  2. compare the second part of the linked list to compare the reversed first half
+
+463. Island Perimeter
+[kinda simulation]
+  1. locate all neighboring positions of a specific location
+  2. if not 1, add 1 to the overall perimeter
+
+328. Odd Even Linked List
+219. Contains Duplicate II
+[Hash Table] use an unordered_map:
+  1. first -> element, second -> index
+  2. once find, compare the absolute difference of positions
+```
+
+## Day 21
+
+```
+176. Second Highest Salary
+[SQL] Use SELECT, WHERE, FROM, MAX keywords to practice with SQL
+
+197. Rising Temperature
+[SQL] Create object to assign attributes for comparison
+
+479. Largest Palindrome Product
+[NEED TO CHECK AGAIN THE SOLUTION'S IDEA ......]
+
+153. Find Minimum in Rotated Sorted Array
+* Three Methods:
+  1. [sort() function] -> O(n logn) runtime
+  2. [Compare nums[i] and nums[i+1]] -> O(n) runtime
+  3. [Binary Search]:
+    (1). if rotated, the first element would be smaller than than the last element
+    (2). use binary search to find the smallest element in the array
+```
