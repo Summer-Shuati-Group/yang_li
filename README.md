@@ -143,7 +143,7 @@
   5. Moore Voting Algorithm
   6. Bit Manipulation
 155. Min Stack
-[Design Trick] Use two stacks to access the smallest element in 
+[Design Trick] Use two stacks to access the smallest element in
 linear time
 ```
 
@@ -275,4 +275,35 @@ Easy Simulation
   3. [Binary Search]:
     (1). if rotated, the first element would be smaller than than the last element
     (2). use binary search to find the smallest element in the array
+```
+
+## Day 22
+
+```
+72. Edit Distance
+[Dynamic Programming - Sequence Alignment]:
+  1. (recurrence relation) SA[i, j] = SA[i + 1, j + 1] (x_i == y_j) 
+  2. (recurrence relation) SA[i, j] = 1 + min(SA[i + 1, j], SA[i, j + 1], SA[i, j]) (x_i != y_j)
+  3. (base case) SA[i, m + 1] = n - i + 1 (starting from 1)
+  4. (base case) SA[n + 1, j] = m - j + 1 (starting from 1)
+
+118. Pascal's Triangle
+[Simulation] code in the way as described
+
+33. Search in Rotated Sorted Array
+[Binary Search] Combine with "153. Find Minimum in Rotated Sorted Array" and use binary search from left and right separated by minimum
+
+627. Swap Salary
+[SQL] Learn keywords such as UPDATE, CASE, WHEN, THEN, END;
+```
+
+## Day 23
+
+```
+319. Bulb Switcher
+[Brainteaser] ......
+
+147. Insertion Sort List
+150. Evaluate Reverse Polish Notation
+100. Same Tree
 ```
