@@ -236,6 +236,15 @@ Easy Simulation
 
 ```
 
+## Day 19
+
+```
+152. Maximum Product Subarray
+139. Word Break
+48. Rotate Image
+8. String to Integer (atoi)
+```
+
 ## Day 20
 
 ```
@@ -250,6 +259,8 @@ Easy Simulation
   2. if not 1, add 1 to the overall perimeter
 
 328. Odd Even Linked List
+
+
 219. Contains Duplicate II
 [Hash Table] use an unordered_map:
   1. first -> element, second -> index
@@ -301,9 +312,39 @@ Easy Simulation
 
 ```
 319. Bulb Switcher
-[Brainteaser] ......
+[Brainteaser]
+* Thinking Process:
+  1. Suppose bulb 1 to n. Bulb is switched on in round d if and only if d divides i.
+  Therefore, bulb i would be on if and only if there are odd number of rounds.
+  (Since the bulb is initially off and finally on)
+  2. Divisors often come in pairs except when i comes in pairs, because when i is
+  a square, it would have the same number but counted once.
+  3. Therefore, just count the square numbers (return sqrt(n))
 
 147. Insertion Sort List
+[Insertion Sort]
+* Procedure:
+  1. create another helper linked list
+  2. insert current linked list to the appropriate location (between pre and pre.next)
+  3. advance the relevant pointers in the original linked lists and repeat
+
 150. Evaluate Reverse Polish Notation
+[Classical Stack Question]
+* Two Methods (recursive & iterative)
+  1. [Iterative implementation]
+    (1). only push the numbers into the stack
+    (2). when an operator is encountered, do corresponding operation between two numbers before
+  2. [Recursive implementation]
+    (1). pop string from the end of the vector
+    (2). if it's number, just return it
+    (3). if it's operation, call function recursively for 2nd operand and 1st
+
 100. Same Tree
+[Depth-first Search (Pre-order traversal)]
+  1. check if either of p or q is null, then return (p == q)
+    (1).p == NULL, q != NULL: return false (different pointers)
+    (2). p != NULL, q == NULL: return false (different pointers)
+    (3). p == NULL, q == NULL: return true
+  2. check if p and q have the same value
+  3. check the corresponding left subtree and right subtree
 ```
