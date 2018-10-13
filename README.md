@@ -348,3 +348,13 @@ Easy Simulation
   2. check if p and q have the same value
   3. check the corresponding left subtree and right subtree
 ```
+
+## Day 24
+
+```
+350. Intersection of Two Arrays II
+
+139. Word Break 
+
+
+```
