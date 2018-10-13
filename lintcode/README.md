@@ -1,1 +1,1 @@
-
+# Lintcode (Google)
